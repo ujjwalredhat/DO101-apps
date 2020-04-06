@@ -7,8 +7,8 @@ app.get('/', function (req, res) {
 app.get('/mars', function (req, res) {
   res.send('Hello Mars!\n');
 });
-app.get('/Ujjwal', function (req, res) {
-  res.send('Hello Ujjwal and family !!\n');
+app.get('/venus', function (req, res) {
+  res.send('Hello venus!\n');
 });
 
 app.listen(8080, function () {
